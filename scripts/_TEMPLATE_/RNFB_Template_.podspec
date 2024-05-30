@@ -22,6 +22,7 @@ Pod::Spec.new do |s|
   s.source              = { :git => "https://github.com/invertase/react-native-firebase.git", :tag => "v#{s.version}" }
   s.social_media_url    = 'http://twitter.com/invertaseio'
   s.ios.deployment_target = "10.0"
+  s.tvos.deployment_target = "13.4"
   s.source_files        = 'ios/**/*.{h,m}'
 
   # React Native dependencies
